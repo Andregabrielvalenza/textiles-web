@@ -1,0 +1,72 @@
+@font-face{
+    font-family: AvenirHeavy;
+    src : url('../font/Avenir Heavy.ttf')
+}
+.acordion-wrapper {
+  margin: 0 auto; 
+  width: 100%;
+  text-align: center;
+  overflow-y: hidden;
+  background-color:  #f8f8f8;
+
+}
+
+.acordion-title{
+  background-color: transparent;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color .3s linear;
+  color: #555555;
+  font-family: AvenirHeavy;
+}
+.acordion-title:hover {
+  cursor: pointer;
+  background-color: #ddd;
+}
+
+.acordion-title.active + .acordion-count {
+  display: block;
+
+}
+.acordion-title > h1{
+    text-align: left;
+     background-color:  #f8f8f8; 
+    color: #555555;
+    font-family: AvenirHeavy;
+    font-size: 13px;
+}
+
+/*.acordion-title > h1:after {
+  content: '+';
+  font-size: 26px;
+  font-weight: bolder;
+  position: absolute;
+  right: 30px;
+  line-height: 28px;
+}*/
+.acordion-title.active > h1 {
+  color: #555555;
+  font-family: AvenirHeavy;
+  font-size: 13px;
+}
+/*.acordion-title.active > h1:after {
+  content: '-';
+}*/
+.acordion-count {
+  position: relative;
+  background-color:  #f8f8f8;
+  
+}
+.acordion-count > p {
+  text-align: left;
+    color: #fff;
+}
+/*.acordion-count:after {
+  content: '';
+  width: 2px;
+  height: 80%;
+  background-color: #fff;
+  position: absolute;
+  top: 5px;
+  left: 15px;
+}*/

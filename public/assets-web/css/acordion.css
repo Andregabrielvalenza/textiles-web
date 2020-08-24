@@ -1,0 +1,60 @@
+@font-face{
+    font-family: AvenirBook;
+    src : url('../font/Avenir Book.ttf')
+}
+.accordion-wrap{
+    border-bottom: 0px;
+}
+
+.accordion-item{
+  width: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+  background-color: #EAEAEA;
+  border-radius: 13px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.accordion-header{
+  transition: ease-in-out 100ms;
+  color: #555555;
+  font-size: 13px;
+  font-family: AvenirBook;
+}
+
+.accordion-text{
+  width: 100%;
+  display: none;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  color: #555555;
+  font-size: 13px;
+  font-family: AvenirBook;
+ }
+
+ .fa{
+ 	transition: ease-in-out 300ms;
+ }
+
+ .rotate-fa{
+ 	transform: rotate(180deg);
+ }
+
+
+ .accordion-item .fa{
+ 	line-height: 20px;
+  color: #000000;
+  position: absolute;
+  right: 20px;
+  z-index: 9999999;
+  top: 10px;
+ }
+
+ .accordion-gold{
+ 	color: #555555;
+ }
+
+ .accordion-no-bar{
+ 	border-bottom: 0;
+}
